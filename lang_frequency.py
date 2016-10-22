@@ -1,6 +1,7 @@
 import re
 from collections import Counter
 
+
 def load_data(filepath):
     with open(filepath) as file:
         data = re.findall(r'\w+', file.read().lower())
